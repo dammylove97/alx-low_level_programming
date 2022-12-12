@@ -18,12 +18,14 @@ int main(void)
   
   n = rand() - RAND_MAX / 2;
   
-  /*my code*/
+  /**
+   *my code
+*/
   if (n > 0);
     printf("%i is positive\n", n);
-    else if (n == 0);
+  else if (n == 0)
     printf("%i is zero\n", n);
-    else (n < 0);
+  else (n < 0)
 	 printf("%i is negative\n");
   return (0);
 }
