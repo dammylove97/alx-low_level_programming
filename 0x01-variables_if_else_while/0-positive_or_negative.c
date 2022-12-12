@@ -32,7 +32,7 @@ int main(void)
   }
 
   
-  else (n < 0) {
+  else  {
      	 printf("%d is negative\n");
     }
   return (0);
