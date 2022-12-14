@@ -16,4 +16,3 @@ digit += 39;
 putchar('\n');
 return (0);
 }
-    
