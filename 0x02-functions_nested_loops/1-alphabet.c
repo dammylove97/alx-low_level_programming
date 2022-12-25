@@ -4,7 +4,7 @@
 *Description: lowercase
 *Return: Always 0 success
 */
-int main(void)
+void print_alphabet(void)
 {
 char la;
 for (la = 'a'; la <= 'z'; la++)
