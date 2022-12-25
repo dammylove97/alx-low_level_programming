@@ -2,10 +2,9 @@
 /**
  *_islower - prints a fuctions that checks for lowercase
  *Description: 'c' prints a functions
- *Return: Always 0 Sueccess
+ *Return: returns 1 if 'c' is lowercase
  */
 int _islower(int c)
-int c;
 {
 if (c >= 97 && c <= 122)
 return (1);
