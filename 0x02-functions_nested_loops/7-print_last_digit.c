@@ -12,6 +12,5 @@ digit = -1 * (n % 10);
 else
 digit = n % 10;
 _putchar(digit + '0');
-_putchar ('\n');
 return (digit);
 }
