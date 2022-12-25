@@ -2,6 +2,7 @@
 /**
  *_islower - prints a fuctions that checks for lowercase
  *Return: returns 1 if 'c' is lowercase
+ *@c: checks input of function
  */
 int _islower(int c)
 {
