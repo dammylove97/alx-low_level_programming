@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*main - this code prints alphabet in lowercase
+*print_alphabet - this code prints alphabet in lowercase
 *Description: lowercase
 *Return: Always 0 success
 */
@@ -10,4 +10,4 @@ char la;
 for (la = 'a'; la <= 'z'; la++)
 _putchar(la);
 _putchar('\n');
-} 
+}
