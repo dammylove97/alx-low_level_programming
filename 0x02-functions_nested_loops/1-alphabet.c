@@ -4,11 +4,10 @@
 *Description: lowercase
 *Return: Always 0 success
 */
-void print_alphabet(void)
+int main(void)
 {
 char la;
 for (la = 'a'; la <= 'z'; la++)
 _putchar(la);
 _putchar('\n');
-return (0);
 } 
