@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- *3-islower - prints a fuctions that checks for lowercase
+ *_islower - prints a fuctions that checks for lowercase
+ *Description: c prints a functions
  *Return: Always 0 Sueccess
  */
 int _islower(int c)
