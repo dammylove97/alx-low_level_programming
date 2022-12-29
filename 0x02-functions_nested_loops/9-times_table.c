@@ -6,6 +6,7 @@
 *0, 1, 2, 3
 */
 void times_table(void)
+{
 int num, prod, mult;
 for (num = 0; num <= 9; ++num)
 {
@@ -20,7 +21,6 @@ prod = num * mult;
 *place the first digit if its two numbers
 */
 if (prod <= 9)
-{
 _putchar(' ');
 else
 _putchar((prod / 10) + 48); /*getting the first digit*/
