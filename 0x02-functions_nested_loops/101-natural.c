@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-*Main - Entry points 
+*main - Entry points 
 *Description: prints all natural numbers multiple of 3 and 5
 *Return: Always 0 success
 */
