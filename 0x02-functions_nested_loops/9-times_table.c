@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*times_table - prints times table in multiple of 0 and 9
+*times_table - prints 9 times table in multiple of 0 and 9
 *Example Table
 *0, 0, 0, 0
 *0, 1, 2, 3
@@ -16,10 +16,8 @@ for (mult = 1; mult <= 9; ++mult)
 _putchar(',');
 _putchar(' ');
 prod = num * mult;
-/**
-*put space if the product is a single number
-*place the first digit if its two numbers
-*/
+/*put space if product is a single number*/
+/*place the first digit if its two numbers*/
 if (prod <= 9)
 _putchar(' ');
 else
